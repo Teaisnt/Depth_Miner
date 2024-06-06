@@ -1,0 +1,239 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32429 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Conestoga_Projects/Game_Engine_3/Depth Miner
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55989
+Successfully changed project path to: D:/Conestoga_Projects/Game_Engine_3/Depth Miner
+D:/Conestoga_Projects/Game_Engine_3/Depth Miner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 215.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Conestoga_Projects/Game_Engine_3/Depth Miner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
+    Vendor:   NVIDIA
+    VRAM:     8020 MB
+    Driver:   31.0.15.5176
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.009508 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 209.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1072ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (797ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (210ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008878 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Conestoga_Projects\Game_Engine_3\Depth Miner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Conestoga_Projects\Game_Engine_3\Depth Miner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 229.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.219 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2221ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1877ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (479ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (153ms)
+			SetupLoadedEditorAssemblies (1027ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (230ms)
+				BeforeProcessingInitializeOnLoad (204ms)
+				ProcessInitializeOnLoadAttributes (418ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (1.5 MB). Loaded Objects now: 6750.
+Memory consumption went from 260.1 MB to 258.6 MB.
+Total: 6.247800 ms (FindLiveObjects: 0.617300 ms CreateObjectMapping: 0.383900 ms MarkObjects: 4.585700 ms  DeleteObjects: 0.659000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 775505.922269 seconds.
+  path: Assets/Scenes/In-Game/PostProcessing.asset
+  artifactKey: Guid(9f316a9144ef99f4c82043299e49cfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In-Game/PostProcessing.asset using Guid(9f316a9144ef99f4c82043299e49cfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0eda66c16a9843c6404d32ffb73d1c9') in 0.098708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/In-Game/ReflectionProbe-0.exr
+  artifactKey: Guid(f0ca6643febe79c4b9690678209fd607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/In-Game/ReflectionProbe-0.exr using Guid(f0ca6643febe79c4b9690678209fd607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b4bff84c1e8451170ea30ebb868d68') in 0.337745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.463701 seconds.
+  path: Assets/Sprites/Tilemaps/Iron.asset
+  artifactKey: Guid(a32dfdbb6da5f5b47a76e3ac9eb4136b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/Iron.asset using Guid(a32dfdbb6da5f5b47a76e3ac9eb4136b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a6acb0bcc70207854844417c7b5961') in 0.058090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Tilemaps/Silver.asset
+  artifactKey: Guid(546f1546cb49a7f43a517f5dac6ed1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/Silver.asset using Guid(546f1546cb49a7f43a517f5dac6ed1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ff6c7e8581efd95ccbd00c245970ab') in 0.038864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.189989 seconds.
+  path: Assets/Audio/Music/Chill Hip-hop Strings - Steven O'Brien (Must Credit, CC-BY, www.steven-obrien.net).mp3
+  artifactKey: Guid(271316ac0186ba048bc95c1991bd63ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/Chill Hip-hop Strings - Steven O'Brien (Must Credit, CC-BY, www.steven-obrien.net).mp3 using Guid(271316ac0186ba048bc95c1991bd63ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e741251f150bb367da7f4ffb44116a8') in 0.081097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Audio/Music/Not Okay - Steven O'Brien (Must Credit, CC-BY, www.steven-obrien.net).mp3
+  artifactKey: Guid(6803516ed25affb4cb0bcd8355f6d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/Not Okay - Steven O'Brien (Must Credit, CC-BY, www.steven-obrien.net).mp3 using Guid(6803516ed25affb4cb0bcd8355f6d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5fec87ddd82bcb911b58360ace5df4') in 0.031498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Audio/Music/white goods - Steven O'Brien (Must Credit, CC-BY, www.steven-obrien.net).mp3
+  artifactKey: Guid(57aa11935c8b1074a866bbbb6bfea932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/white goods - Steven O'Brien (Must Credit, CC-BY, www.steven-obrien.net).mp3 using Guid(57aa11935c8b1074a866bbbb6bfea932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2763a70a0e7c3bd29cab1d2933679c') in 0.031948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Audio/Music/Fromage - Steven O'Brien (Must Credit, CC-BY, www.steven-obrien.net).mp3
+  artifactKey: Guid(93d788eff84beb141a434032064f2108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/Fromage - Steven O'Brien (Must Credit, CC-BY, www.steven-obrien.net).mp3 using Guid(93d788eff84beb141a434032064f2108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a2e07559ce4cb19a16c2bd5b65c7d8') in 0.030495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.172905 seconds.
+  path: Assets/Audio/SFX/BlockBreak.mp3
+  artifactKey: Guid(412b68ed237242340ad7f6f05f07fba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/BlockBreak.mp3 using Guid(412b68ed237242340ad7f6f05f07fba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4d7e8e05f05363d3f870395a655e9a') in 0.033465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Audio/SFX/IronMine.mp3
+  artifactKey: Guid(8b85df712fa5d0047bf97fade893c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/IronMine.mp3 using Guid(8b85df712fa5d0047bf97fade893c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7352c5f18163e540b744022911f93c04') in 0.031368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Audio/SFX/wind-chimes-bells-115747.mp3
+  artifactKey: Guid(f1377f10c920b1c44a2ac440d6ed1c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/wind-chimes-bells-115747.mp3 using Guid(f1377f10c920b1c44a2ac440d6ed1c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e2da099a3d89300ed49e45aa1ec5f9') in 0.042480 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
